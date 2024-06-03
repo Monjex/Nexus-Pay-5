@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CenturyGothic.ttf">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ManagerHomeTVC" rowHeight="91" id="KGk-i7-Jjw" customClass="ManagerHomeTVC" customModule="Nexus_Pay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18U-3z-jA2">
+                        <rect key="frame" x="0.0" y="0.0" width="425" height="91"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="i11-ET-W8Q">
+                                <rect key="frame" x="48" y="0.0" width="365" height="91"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anna Paul" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfo-VS-nnz">
+                                        <rect key="frame" x="0.0" y="0.0" width="91.333333333333329" height="91"/>
+                                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WFH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soc-Rg-dV1">
+                                        <rect key="frame" x="91.333333333333343" y="0.0" width="91.333333333333343" height="91"/>
+                                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Jun" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuR-Sl-og7">
+                                        <rect key="frame" x="182.66666666666666" y="0.0" width="90.999999999999972" height="91"/>
+                                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qoO-p3-7xV">
+                                        <rect key="frame" x="273.66666666666669" y="0.0" width="91.333333333333314" height="91"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkm-6N-l2w">
+                                                <rect key="frame" x="0.0" y="0.0" width="30.666666666666668" height="91"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="approveIcon"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WX-jj-SLW">
+                                                <rect key="frame" x="30.666666666666629" y="0.0" width="30.333333333333329" height="91"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="crossIcon"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkX-tM-lmn">
+                                                <rect key="frame" x="61.000000000000007" y="0.0" width="30.333333333333336" height="91"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="infoIcon"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2E-J4-Z4J">
+                                <rect key="frame" x="12" y="33.666666666666664" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="KtT-M1-03p"/>
+                                    <constraint firstAttribute="height" constant="24" id="Pb9-na-o5W"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="BlankBox"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="i11-ET-W8Q" secondAttribute="bottom" id="2iH-Il-3MM"/>
+                            <constraint firstItem="Z2E-J4-Z4J" firstAttribute="centerY" secondItem="18U-3z-jA2" secondAttribute="centerY" id="5Ts-vY-l1Z"/>
+                            <constraint firstItem="Z2E-J4-Z4J" firstAttribute="leading" secondItem="18U-3z-jA2" secondAttribute="leading" constant="12" id="Hys-do-Qjv"/>
+                            <constraint firstItem="i11-ET-W8Q" firstAttribute="top" secondItem="18U-3z-jA2" secondAttribute="top" id="XUA-Fn-R4f"/>
+                            <constraint firstItem="i11-ET-W8Q" firstAttribute="leading" secondItem="Z2E-J4-Z4J" secondAttribute="trailing" constant="12" id="dOD-OG-6Ew"/>
+                            <constraint firstAttribute="trailing" secondItem="i11-ET-W8Q" secondAttribute="trailing" constant="12" id="jJ1-5u-4id"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="18U-3z-jA2" secondAttribute="trailing" id="8pR-q1-ySM"/>
+                    <constraint firstItem="18U-3z-jA2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GnS-WH-qMR"/>
+                    <constraint firstAttribute="bottom" secondItem="18U-3z-jA2" secondAttribute="bottom" id="ner-NP-v8H"/>
+                    <constraint firstItem="18U-3z-jA2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xzF-c9-joI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="approveAllBtn" destination="Z2E-J4-Z4J" id="F4r-Nh-jfc"/>
+                <outlet property="approveBtn" destination="Pkm-6N-l2w" id="k7u-mh-tiA"/>
+                <outlet property="crossBtn" destination="9WX-jj-SLW" id="a5o-xa-EaO"/>
+                <outlet property="dateLbl" destination="YuR-Sl-og7" id="Hxs-rW-Acq"/>
+                <outlet property="infoBtn" destination="QkX-tM-lmn" id="0ZX-5A-qwa"/>
+                <outlet property="leaveStackView" destination="qoO-p3-7xV" id="fzl-wl-gbw"/>
+                <outlet property="mainView" destination="18U-3z-jA2" id="xsV-rA-t6V"/>
+                <outlet property="nameLbl" destination="xfo-VS-nnz" id="EIv-7T-afV"/>
+                <outlet property="typeLbl" destination="soc-Rg-dV1" id="wvc-w8-ttX"/>
+            </connections>
+            <point key="canvasLocation" x="167.17557251908397" y="-16.549295774647888"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BlankBox" width="29" height="29"/>
+        <image name="approveIcon" width="16" height="16"/>
+        <image name="crossIcon" width="16" height="16"/>
+        <image name="infoIcon" width="16" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

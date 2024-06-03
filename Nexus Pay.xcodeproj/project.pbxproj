@@ -1,0 +1,1389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250F731B2979251100B56098 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F731A2979251100B56098 /* Color.swift */; };
+		250F731D2979253B00B56098 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F731C2979253B00B56098 /* AppFont.swift */; };
+		250F731F2979256600B56098 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F731E2979256600B56098 /* Constant.swift */; };
+		250F73212979259800B56098 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F73202979259800B56098 /* Loader.swift */; };
+		250F7323297925BE00B56098 /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F7322297925BE00B56098 /* RPicker.swift */; };
+		250F73262979263C00B56098 /* UIViewController-Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F73252979263C00B56098 /* UIViewController-Custom.swift */; };
+		250F732929792A6100B56098 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F732829792A6100B56098 /* APIConstants.swift */; };
+		250F732B29792A8E00B56098 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F732A29792A8E00B56098 /* HTTPStatusCode.swift */; };
+		250F732D29792AAB00B56098 /* APIResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F732C29792AAB00B56098 /* APIResponseType.swift */; };
+		250F732F29792AC100B56098 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F732E29792AC100B56098 /* APIError.swift */; };
+		250F733129792AD700B56098 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F733029792AD700B56098 /* NetworkAdapter.swift */; };
+		250F733429792BA900B56098 /* BaseRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F733329792BA900B56098 /* BaseRouterProtocol.swift */; };
+		25192B712976A5FD00D8EFB6 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25192B702976A5FD00D8EFB6 /* SignUpVC.swift */; };
+		25192B732976A66700D8EFB6 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25192B722976A66700D8EFB6 /* ForgotPasswordVC.swift */; };
+		252616C42B48198900A485EB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252616C32B48198800A485EB /* AdSupport.framework */; };
+		252616C62B48199300A485EB /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252616C52B48199300A485EB /* FirebaseAnalytics.xcframework */; };
+		2528BA6729ED10700001977E /* CompanyHolidaysVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2528BA6629ED10700001977E /* CompanyHolidaysVC.swift */; };
+		2528BA6A29ED10900001977E /* CompanyHolidaysTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2528BA6829ED10900001977E /* CompanyHolidaysTVC.swift */; };
+		2528BA6B29ED10900001977E /* CompanyHolidaysTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2528BA6929ED10900001977E /* CompanyHolidaysTVC.xib */; };
+		2528BA6D29ED162C0001977E /* PreviousRequestDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2528BA6C29ED162B0001977E /* PreviousRequestDetailVC.swift */; };
+		2528BA7029ED49420001977E /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2528BA6F29ED49420001977E /* MyProfileVC.swift */; };
+		252E93332A8652EB005C3327 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 252E93322A8652EB005C3327 /* GoogleService-Info.plist */; };
+		2535B4B729E8082900FAFB85 /* ApplyRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2535B4B629E8082900FAFB85 /* ApplyRequestVC.swift */; };
+		2535B4BA29E812B300FAFB85 /* UpcomingRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2535B4B929E812B300FAFB85 /* UpcomingRequestVC.swift */; };
+		2535B4BD29E8168400FAFB85 /* UpcomingRequestTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2535B4BB29E8168400FAFB85 /* UpcomingRequestTVC.swift */; };
+		2535B4BE29E8168400FAFB85 /* UpcomingRequestTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2535B4BC29E8168400FAFB85 /* UpcomingRequestTVC.xib */; };
+		2535B4C029E828D500FAFB85 /* PreviousRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2535B4BF29E828D500FAFB85 /* PreviousRequestVC.swift */; };
+		253F313A2A31BA4000C859E4 /* WfhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F31392A31BA4000C859E4 /* WfhVC.swift */; };
+		253F313D2A31D3A800C859E4 /* ManagerHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F313C2A31D3A800C859E4 /* ManagerHomeVC.swift */; };
+		253F31402A31DCA300C859E4 /* ManagerHomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F313E2A31DCA300C859E4 /* ManagerHomeTVC.swift */; };
+		253F31412A31DCA300C859E4 /* ManagerHomeTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253F313F2A31DCA300C859E4 /* ManagerHomeTVC.xib */; };
+		253F31432A31E36000C859E4 /* ManagerLeaveDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F31422A31E36000C859E4 /* ManagerLeaveDetailsVC.swift */; };
+		253F31452A31E84500C859E4 /* TeamUpcomingReqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F31442A31E84500C859E4 /* TeamUpcomingReqVC.swift */; };
+		253F31482A31F60D00C859E4 /* UpcomingReqTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F31462A31F60D00C859E4 /* UpcomingReqTVC.swift */; };
+		253F31492A31F60D00C859E4 /* UpcomingReqTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253F31472A31F60D00C859E4 /* UpcomingReqTVC.xib */; };
+		25517D462A553EC600CC429D /* EmployeeNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25517D452A553EC600CC429D /* EmployeeNotificationsVC.swift */; };
+		25517D492A553EF600CC429D /* EmployeeNotificationsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25517D472A553EF600CC429D /* EmployeeNotificationsTVC.swift */; };
+		25517D4A2A553EF600CC429D /* EmployeeNotificationsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25517D482A553EF600CC429D /* EmployeeNotificationsTVC.xib */; };
+		25529E812976ADAC002CBBB7 /* HomeMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25529E802976ADAC002CBBB7 /* HomeMainVC.swift */; };
+		25529E832976B08C002CBBB7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25529E822976B08B002CBBB7 /* HomeVC.swift */; };
+		256132E42A405B5800DBBB6A /* RHApplyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256132E32A405B5800DBBB6A /* RHApplyVC.swift */; };
+		258BCA512A39D576008CFD45 /* ApplyRequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BCA502A39D576008CFD45 /* ApplyRequestRouter.swift */; };
+		258BCA532A39D6CA008CFD45 /* ApplyRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BCA522A39D6CA008CFD45 /* ApplyRequestServices.swift */; };
+		258BCA552A39D77A008CFD45 /* ApplyRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BCA542A39D77A008CFD45 /* ApplyRequestViewModel.swift */; };
+		258BCA572A39D79B008CFD45 /* ApplyRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BCA562A39D79B008CFD45 /* ApplyRequestModel.swift */; };
+		259755B12AF3743B001978DD /* EmployeeWFHVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259755B02AF3743B001978DD /* EmployeeWFHVC.swift */; };
+		259B32A529767B9100AC25A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B32A429767B9100AC25A3 /* AppDelegate.swift */; };
+		259B32A729767B9100AC25A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B32A629767B9100AC25A3 /* SceneDelegate.swift */; };
+		259B32A929767B9100AC25A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B32A829767B9100AC25A3 /* ViewController.swift */; };
+		259B32AC29767B9100AC25A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259B32AA29767B9100AC25A3 /* Main.storyboard */; };
+		259B32AE29767B9300AC25A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259B32AD29767B9300AC25A3 /* Assets.xcassets */; };
+		259B32B129767B9300AC25A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259B32AF29767B9300AC25A3 /* LaunchScreen.storyboard */; };
+		259B32BC29767B9300AC25A3 /* Nexus_PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B32BB29767B9300AC25A3 /* Nexus_PayTests.swift */; };
+		259B32C629767B9300AC25A3 /* Nexus_PayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B32C529767B9300AC25A3 /* Nexus_PayUITests.swift */; };
+		259B32C829767B9300AC25A3 /* Nexus_PayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B32C729767B9300AC25A3 /* Nexus_PayUITestsLaunchTests.swift */; };
+		25A3CAB42A2EFF57003096BA /* GOTHICB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAAD2A2EFF57003096BA /* GOTHICB.TTF */; };
+		25A3CAB52A2EFF57003096BA /* Century Gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAAE2A2EFF57003096BA /* Century Gothic.ttf */; };
+		25A3CAB62A2EFF57003096BA /* GOTHICBI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAAF2A2EFF57003096BA /* GOTHICBI.TTF */; };
+		25A3CAB72A2EFF57003096BA /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAB02A2EFF57003096BA /* GOTHICI.TTF */; };
+		25A3CAB82A2EFF57003096BA /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAB12A2EFF57003096BA /* CenturyGothic.ttf */; };
+		25A3CAB92A2EFF57003096BA /* GOTHIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAB22A2EFF57003096BA /* GOTHIC.TTF */; };
+		25A3CABA2A2EFF57003096BA /* GOTHICB0.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CAB32A2EFF57003096BA /* GOTHICB0.TTF */; };
+		25A3CABC2A2F0CE0003096BA /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3CABB2A2F0CE0003096BA /* OtpVC.swift */; };
+		25A3CABF2A2F3437003096BA /* LeaveBalanceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3CABD2A2F3437003096BA /* LeaveBalanceTVC.swift */; };
+		25A3CAC02A2F3437003096BA /* LeaveBalanceTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A3CABE2A2F3437003096BA /* LeaveBalanceTVC.xib */; };
+		25A4B1D72977BE9C00521FA3 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4B1D62977BE9C00521FA3 /* SideMenuVC.swift */; };
+		25A4B1DA2977BEC800521FA3 /* SideMenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4B1D82977BEC800521FA3 /* SideMenuTVC.swift */; };
+		25A4B1DB2977BEC800521FA3 /* SideMenuTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A4B1D92977BEC800521FA3 /* SideMenuTVC.xib */; };
+		25A4F51E29EE5FB40043AE2D /* LeaveBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4F51D29EE5FB40043AE2D /* LeaveBalanceVC.swift */; };
+		25A4F52129EE5FFA0043AE2D /* LeaveBalanceCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4F51F29EE5FFA0043AE2D /* LeaveBalanceCVC.swift */; };
+		25A4F52229EE5FFA0043AE2D /* LeaveBalanceCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A4F52029EE5FFA0043AE2D /* LeaveBalanceCVC.xib */; };
+		25AAD75B2A32F130004F02CA /* OnLeaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAD75A2A32F130004F02CA /* OnLeaveVC.swift */; };
+		25AAD75E2A32F48F004F02CA /* OnLeaveTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAD75C2A32F48F004F02CA /* OnLeaveTVC.swift */; };
+		25AAD75F2A32F48F004F02CA /* OnLeaveTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25AAD75D2A32F48F004F02CA /* OnLeaveTVC.xib */; };
+		25EB7EA329E7ED1100DDB10E /* ApplyOvertimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EB7EA229E7ED1100DDB10E /* ApplyOvertimeVC.swift */; };
+		25F7D7B32A36EEA40049277F /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7B22A36EEA40049277F /* UserDefaultsUtils.swift */; };
+		25F7D7B52A36EEB40049277F /* AuthUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7B42A36EEB40049277F /* AuthUtils.swift */; };
+		25F7D7B72A36EF3C0049277F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7B62A36EF3C0049277F /* LoginModel.swift */; };
+		25F7D7B92A36F03F0049277F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7B82A36F03F0049277F /* UserViewModel.swift */; };
+		25F7D7BB2A36F0F60049277F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7BA2A36F0F60049277F /* BaseViewModel.swift */; };
+		25F7D7BD2A36F5800049277F /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7BC2A36F5800049277F /* UserServices.swift */; };
+		25F7D7BF2A36F5BF0049277F /* GeneralBaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7BE2A36F5BF0049277F /* GeneralBaseRouter.swift */; };
+		25F7D7C12A36F6120049277F /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7C02A36F6120049277F /* UserRouter.swift */; };
+		25F7D7C32A36F96B0049277F /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7C22A36F96B0049277F /* BaseResponse.swift */; };
+		25F7D7C52A3740A30049277F /* DashboardServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7C42A3740A30049277F /* DashboardServices.swift */; };
+		25F7D7C72A3740B50049277F /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7C62A3740B50049277F /* DashboardRouter.swift */; };
+		25F7D7C92A3741760049277F /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7C82A3741760049277F /* DashboardViewModel.swift */; };
+		25F7D7CB2A3745390049277F /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7D7CA2A3745390049277F /* DashboardModel.swift */; };
+		26D65E26BD14C1B9CA31FAC9 /* Pods_Nexus_PayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D940EC70E4BF5993EE2E0BE /* Pods_Nexus_PayTests.framework */; };
+		527B0B6B8E9F97DEE0D1D2EA /* Pods_Nexus_Pay_Nexus_PayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5EB214CF17F715637BBA9C /* Pods_Nexus_Pay_Nexus_PayUITests.framework */; };
+		A63B9F5135F8ABDB20D23078 /* Pods_Nexus_Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA1C11A6B825D1E3DDB9C04 /* Pods_Nexus_Pay.framework */; };
+		AF7843DD2B56AAAF00EAAF92 /* calendar88.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF7843DC2B56AAAF00EAAF92 /* calendar88.gif */; };
+		AF8694612C0EC66C008C28AC /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8694602C0EC66C008C28AC /* DummyViewController.swift */; };
+		AF8694642C0EC6C4008C28AC /* DummyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8694622C0EC6C4008C28AC /* DummyTVC.swift */; };
+		AF8694652C0EC6C4008C28AC /* DummyTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8694632C0EC6C4008C28AC /* DummyTVC.xib */; };
+		AF97FE842BE8D82D00197C0E /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97FE832BE8D82D00197C0E /* CustomTabBarController.swift */; };
+		AFAAF7502B6775E000842532 /* PendingRequests.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFAAF74F2B6775E000842532 /* PendingRequests.gif */; };
+		AFAAF7522B677B1300842532 /* onleave.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFAAF7512B677B1300842532 /* onleave.gif */; };
+		AFAAF7542B67B84100842532 /* onleave_11.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFAAF7532B67B84100842532 /* onleave_11.gif */; };
+		AFAAF7562B67BA1E00842532 /* team-request11.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFAAF7552B67BA1E00842532 /* team-request11.gif */; };
+		AFCD21832BC3EC07006BFC84 /* managerHomeScreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFCD21822BC3EC07006BFC84 /* managerHomeScreen.gif */; };
+		AFD047E72B5928CD004FE2A3 /* company-holidays.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFD047E62B5928CD004FE2A3 /* company-holidays.gif */; };
+		AFD047EB2B5A50E6004FE2A3 /* leave-summary-details 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFD047EA2B5A50E6004FE2A3 /* leave-summary-details 1.gif */; };
+		AFD047ED2B5A57FF004FE2A3 /* leaves-details12.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFD047EC2B5A57FF004FE2A3 /* leaves-details12.gif */; };
+		AFD047F02B5A8404004FE2A3 /* notifications-screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFD047EF2B5A8404004FE2A3 /* notifications-screen.gif */; };
+		AFE231152BA849AC009773F0 /* success-1-6297.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE231142BA849AC009773F0 /* success-1-6297.mp3 */; };
+		AFE2FCBF2B5FDE1B002AAC64 /* LeaveDetails-new1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFE2FCBE2B5FDE1B002AAC64 /* LeaveDetails-new1.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259B32B829767B9300AC25A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B329929767B9000AC25A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259B32A029767B9100AC25A3;
+			remoteInfo = "Nexus Pay";
+		};
+		259B32C229767B9300AC25A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B329929767B9000AC25A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259B32A029767B9100AC25A3;
+			remoteInfo = "Nexus Pay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12DB6D1BF47940A5D3C9BBDA /* Pods-Nexus PayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nexus PayTests.debug.xcconfig"; path = "Target Support Files/Pods-Nexus PayTests/Pods-Nexus PayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		250F731A2979251100B56098 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		250F731C2979253B00B56098 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		250F731E2979256600B56098 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		250F73202979259800B56098 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		250F7322297925BE00B56098 /* RPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		250F73252979263C00B56098 /* UIViewController-Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-Custom.swift"; sourceTree = "<group>"; };
+		250F732829792A6100B56098 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		250F732A29792A8E00B56098 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		250F732C29792AAB00B56098 /* APIResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseType.swift; sourceTree = "<group>"; };
+		250F732E29792AC100B56098 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		250F733029792AD700B56098 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		250F733329792BA900B56098 /* BaseRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouterProtocol.swift; sourceTree = "<group>"; };
+		25192B702976A5FD00D8EFB6 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		25192B722976A66700D8EFB6 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		252616C32B48198800A485EB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		252616C52B48199300A485EB /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		2528BA6629ED10700001977E /* CompanyHolidaysVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHolidaysVC.swift; sourceTree = "<group>"; };
+		2528BA6829ED10900001977E /* CompanyHolidaysTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHolidaysTVC.swift; sourceTree = "<group>"; };
+		2528BA6929ED10900001977E /* CompanyHolidaysTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyHolidaysTVC.xib; sourceTree = "<group>"; };
+		2528BA6C29ED162B0001977E /* PreviousRequestDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousRequestDetailVC.swift; sourceTree = "<group>"; };
+		2528BA6F29ED49420001977E /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		252E93312A8646B4005C3327 /* Nexus Pay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nexus Pay.entitlements"; sourceTree = "<group>"; };
+		252E93322A8652EB005C3327 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2535B4B629E8082900FAFB85 /* ApplyRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyRequestVC.swift; sourceTree = "<group>"; };
+		2535B4B929E812B300FAFB85 /* UpcomingRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRequestVC.swift; sourceTree = "<group>"; };
+		2535B4BB29E8168400FAFB85 /* UpcomingRequestTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRequestTVC.swift; sourceTree = "<group>"; };
+		2535B4BC29E8168400FAFB85 /* UpcomingRequestTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingRequestTVC.xib; sourceTree = "<group>"; };
+		2535B4BF29E828D500FAFB85 /* PreviousRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousRequestVC.swift; sourceTree = "<group>"; };
+		253F31392A31BA4000C859E4 /* WfhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WfhVC.swift; sourceTree = "<group>"; };
+		253F313C2A31D3A800C859E4 /* ManagerHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerHomeVC.swift; sourceTree = "<group>"; };
+		253F313E2A31DCA300C859E4 /* ManagerHomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerHomeTVC.swift; sourceTree = "<group>"; };
+		253F313F2A31DCA300C859E4 /* ManagerHomeTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManagerHomeTVC.xib; sourceTree = "<group>"; };
+		253F31422A31E36000C859E4 /* ManagerLeaveDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerLeaveDetailsVC.swift; sourceTree = "<group>"; };
+		253F31442A31E84500C859E4 /* TeamUpcomingReqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamUpcomingReqVC.swift; sourceTree = "<group>"; };
+		253F31462A31F60D00C859E4 /* UpcomingReqTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingReqTVC.swift; sourceTree = "<group>"; };
+		253F31472A31F60D00C859E4 /* UpcomingReqTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingReqTVC.xib; sourceTree = "<group>"; };
+		25517D452A553EC600CC429D /* EmployeeNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeNotificationsVC.swift; sourceTree = "<group>"; };
+		25517D472A553EF600CC429D /* EmployeeNotificationsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeNotificationsTVC.swift; sourceTree = "<group>"; };
+		25517D482A553EF600CC429D /* EmployeeNotificationsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeNotificationsTVC.xib; sourceTree = "<group>"; };
+		25529E802976ADAC002CBBB7 /* HomeMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainVC.swift; sourceTree = "<group>"; };
+		25529E822976B08B002CBBB7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		256132E32A405B5800DBBB6A /* RHApplyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHApplyVC.swift; sourceTree = "<group>"; };
+		258BCA502A39D576008CFD45 /* ApplyRequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyRequestRouter.swift; sourceTree = "<group>"; };
+		258BCA522A39D6CA008CFD45 /* ApplyRequestServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyRequestServices.swift; sourceTree = "<group>"; };
+		258BCA542A39D77A008CFD45 /* ApplyRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyRequestViewModel.swift; sourceTree = "<group>"; };
+		258BCA562A39D79B008CFD45 /* ApplyRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyRequestModel.swift; sourceTree = "<group>"; };
+		259755B02AF3743B001978DD /* EmployeeWFHVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeWFHVC.swift; sourceTree = "<group>"; };
+		259B32A129767B9100AC25A3 /* Nexus Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nexus Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259B32A429767B9100AC25A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259B32A629767B9100AC25A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		259B32A829767B9100AC25A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259B32AB29767B9100AC25A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259B32AD29767B9300AC25A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259B32B029767B9300AC25A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259B32B229767B9300AC25A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259B32B729767B9300AC25A3 /* Nexus PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nexus PayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259B32BB29767B9300AC25A3 /* Nexus_PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_PayTests.swift; sourceTree = "<group>"; };
+		259B32C129767B9300AC25A3 /* Nexus PayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nexus PayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259B32C529767B9300AC25A3 /* Nexus_PayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_PayUITests.swift; sourceTree = "<group>"; };
+		259B32C729767B9300AC25A3 /* Nexus_PayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_PayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25A3CAAD2A2EFF57003096BA /* GOTHICB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB.TTF; sourceTree = "<group>"; };
+		25A3CAAE2A2EFF57003096BA /* Century Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic.ttf"; sourceTree = "<group>"; };
+		25A3CAAF2A2EFF57003096BA /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
+		25A3CAB02A2EFF57003096BA /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
+		25A3CAB12A2EFF57003096BA /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CenturyGothic.ttf; sourceTree = "<group>"; };
+		25A3CAB22A2EFF57003096BA /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
+		25A3CAB32A2EFF57003096BA /* GOTHICB0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB0.TTF; sourceTree = "<group>"; };
+		25A3CABB2A2F0CE0003096BA /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		25A3CABD2A2F3437003096BA /* LeaveBalanceTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalanceTVC.swift; sourceTree = "<group>"; };
+		25A3CABE2A2F3437003096BA /* LeaveBalanceTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveBalanceTVC.xib; sourceTree = "<group>"; };
+		25A4B1D62977BE9C00521FA3 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		25A4B1D82977BEC800521FA3 /* SideMenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTVC.swift; sourceTree = "<group>"; };
+		25A4B1D92977BEC800521FA3 /* SideMenuTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTVC.xib; sourceTree = "<group>"; };
+		25A4F51D29EE5FB40043AE2D /* LeaveBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalanceVC.swift; sourceTree = "<group>"; };
+		25A4F51F29EE5FFA0043AE2D /* LeaveBalanceCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalanceCVC.swift; sourceTree = "<group>"; };
+		25A4F52029EE5FFA0043AE2D /* LeaveBalanceCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaveBalanceCVC.xib; sourceTree = "<group>"; };
+		25AAD75A2A32F130004F02CA /* OnLeaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLeaveVC.swift; sourceTree = "<group>"; };
+		25AAD75C2A32F48F004F02CA /* OnLeaveTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLeaveTVC.swift; sourceTree = "<group>"; };
+		25AAD75D2A32F48F004F02CA /* OnLeaveTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnLeaveTVC.xib; sourceTree = "<group>"; };
+		25EB7EA229E7ED1100DDB10E /* ApplyOvertimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyOvertimeVC.swift; sourceTree = "<group>"; };
+		25F7D7B22A36EEA40049277F /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		25F7D7B42A36EEB40049277F /* AuthUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUtils.swift; sourceTree = "<group>"; };
+		25F7D7B62A36EF3C0049277F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		25F7D7B82A36F03F0049277F /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		25F7D7BA2A36F0F60049277F /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		25F7D7BC2A36F5800049277F /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		25F7D7BE2A36F5BF0049277F /* GeneralBaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBaseRouter.swift; sourceTree = "<group>"; };
+		25F7D7C02A36F6120049277F /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		25F7D7C22A36F96B0049277F /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		25F7D7C42A3740A30049277F /* DashboardServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardServices.swift; sourceTree = "<group>"; };
+		25F7D7C62A3740B50049277F /* DashboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
+		25F7D7C82A3741760049277F /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		25F7D7CA2A3745390049277F /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		32EC4B6176623519E83AD5E3 /* Pods-Nexus PayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nexus PayTests.release.xcconfig"; path = "Target Support Files/Pods-Nexus PayTests/Pods-Nexus PayTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D940EC70E4BF5993EE2E0BE /* Pods_Nexus_PayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nexus_PayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5EB214CF17F715637BBA9C /* Pods_Nexus_Pay_Nexus_PayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nexus_Pay_Nexus_PayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A868CF7E339749C0179AAF1A /* Pods-Nexus Pay-Nexus PayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nexus Pay-Nexus PayUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nexus Pay-Nexus PayUITests/Pods-Nexus Pay-Nexus PayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8B81D41F98B66D3896FBDE /* Pods-Nexus Pay-Nexus PayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nexus Pay-Nexus PayUITests.release.xcconfig"; path = "Target Support Files/Pods-Nexus Pay-Nexus PayUITests/Pods-Nexus Pay-Nexus PayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF7843DC2B56AAAF00EAAF92 /* calendar88.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calendar88.gif; sourceTree = "<group>"; };
+		AF8694602C0EC66C008C28AC /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		AF8694622C0EC6C4008C28AC /* DummyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTVC.swift; sourceTree = "<group>"; };
+		AF8694632C0EC6C4008C28AC /* DummyTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DummyTVC.xib; sourceTree = "<group>"; };
+		AF97FE832BE8D82D00197C0E /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		AFAAF74F2B6775E000842532 /* PendingRequests.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PendingRequests.gif; sourceTree = "<group>"; };
+		AFAAF7512B677B1300842532 /* onleave.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = onleave.gif; sourceTree = "<group>"; };
+		AFAAF7532B67B84100842532 /* onleave_11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = onleave_11.gif; sourceTree = "<group>"; };
+		AFAAF7552B67BA1E00842532 /* team-request11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "team-request11.gif"; sourceTree = "<group>"; };
+		AFCD21822BC3EC07006BFC84 /* managerHomeScreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = managerHomeScreen.gif; sourceTree = "<group>"; };
+		AFD047E62B5928CD004FE2A3 /* company-holidays.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "company-holidays.gif"; sourceTree = "<group>"; };
+		AFD047EA2B5A50E6004FE2A3 /* leave-summary-details 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "leave-summary-details 1.gif"; sourceTree = "<group>"; };
+		AFD047EC2B5A57FF004FE2A3 /* leaves-details12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "leaves-details12.gif"; sourceTree = "<group>"; };
+		AFD047EF2B5A8404004FE2A3 /* notifications-screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "notifications-screen.gif"; sourceTree = "<group>"; };
+		AFE231142BA849AC009773F0 /* success-1-6297.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "success-1-6297.mp3"; sourceTree = "<group>"; };
+		AFE2FCBE2B5FDE1B002AAC64 /* LeaveDetails-new1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "LeaveDetails-new1.gif"; sourceTree = "<group>"; };
+		BEA1C11A6B825D1E3DDB9C04 /* Pods_Nexus_Pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nexus_Pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78CB9C6DD54F604E79EC3A3 /* Pods-Nexus Pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nexus Pay.release.xcconfig"; path = "Target Support Files/Pods-Nexus Pay/Pods-Nexus Pay.release.xcconfig"; sourceTree = "<group>"; };
+		ED882E0439C966BEE1B64B0F /* Pods-Nexus Pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nexus Pay.debug.xcconfig"; path = "Target Support Files/Pods-Nexus Pay/Pods-Nexus Pay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259B329E29767B9100AC25A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252616C62B48199300A485EB /* FirebaseAnalytics.xcframework in Frameworks */,
+				252616C42B48198900A485EB /* AdSupport.framework in Frameworks */,
+				A63B9F5135F8ABDB20D23078 /* Pods_Nexus_Pay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B32B429767B9300AC25A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D65E26BD14C1B9CA31FAC9 /* Pods_Nexus_PayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B32BE29767B9300AC25A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B0B6B8E9F97DEE0D1D2EA /* Pods_Nexus_Pay_Nexus_PayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250F7319297924DE00B56098 /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				250F731A2979251100B56098 /* Color.swift */,
+				250F731C2979253B00B56098 /* AppFont.swift */,
+				250F731E2979256600B56098 /* Constant.swift */,
+				250F73202979259800B56098 /* Loader.swift */,
+				250F7322297925BE00B56098 /* RPicker.swift */,
+			);
+			path = "Common Files";
+			sourceTree = "<group>";
+		};
+		250F7324297925F600B56098 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				250F73252979263C00B56098 /* UIViewController-Custom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		250F732729792A3400B56098 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				250F733729792C1900B56098 /* BaseRouters */,
+				250F733629792C0A00B56098 /* Service */,
+				250F733529792BFC00B56098 /* Routers */,
+				250F733229792B8800B56098 /* Protocol */,
+				250F732829792A6100B56098 /* APIConstants.swift */,
+				250F732A29792A8E00B56098 /* HTTPStatusCode.swift */,
+				250F732C29792AAB00B56098 /* APIResponseType.swift */,
+				250F732E29792AC100B56098 /* APIError.swift */,
+				250F733029792AD700B56098 /* NetworkAdapter.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		250F733229792B8800B56098 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				250F733329792BA900B56098 /* BaseRouterProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		250F733529792BFC00B56098 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				25F7D7C02A36F6120049277F /* UserRouter.swift */,
+				25F7D7C62A3740B50049277F /* DashboardRouter.swift */,
+				258BCA502A39D576008CFD45 /* ApplyRequestRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		250F733629792C0A00B56098 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				25F7D7BC2A36F5800049277F /* UserServices.swift */,
+				25F7D7C42A3740A30049277F /* DashboardServices.swift */,
+				258BCA522A39D6CA008CFD45 /* ApplyRequestServices.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		250F733729792C1900B56098 /* BaseRouters */ = {
+			isa = PBXGroup;
+			children = (
+				25F7D7BE2A36F5BF0049277F /* GeneralBaseRouter.swift */,
+			);
+			path = BaseRouters;
+			sourceTree = "<group>";
+		};
+		25192B6E2976A5B000D8EFB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25517D442A553DE200CC429D /* Notifications */,
+				253F313B2A31D38800C859E4 /* Manager View */,
+				25A4F51C29EE5F990043AE2D /* Leave Balance */,
+				2528BA6E29ED49270001977E /* My Profile */,
+				2528BA6529ED104E0001977E /* Company Holidays */,
+				2535B4B829E8128B00FAFB85 /* Upcoming Request */,
+				25EB7EA129E7ECE600DDB10E /* Apply Request */,
+				25A4B1D52977BE6800521FA3 /* SideMenu */,
+				25529E7F2976AD51002CBBB7 /* Home */,
+				25192B6F2976A5BA00D8EFB6 /* LoginSignup */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25192B6F2976A5BA00D8EFB6 /* LoginSignup */ = {
+			isa = PBXGroup;
+			children = (
+				259B32A829767B9100AC25A3 /* ViewController.swift */,
+				25A3CABB2A2F0CE0003096BA /* OtpVC.swift */,
+				25192B702976A5FD00D8EFB6 /* SignUpVC.swift */,
+				25192B722976A66700D8EFB6 /* ForgotPasswordVC.swift */,
+			);
+			path = LoginSignup;
+			sourceTree = "<group>";
+		};
+		2528BA6529ED104E0001977E /* Company Holidays */ = {
+			isa = PBXGroup;
+			children = (
+				2528BA6629ED10700001977E /* CompanyHolidaysVC.swift */,
+				2528BA6829ED10900001977E /* CompanyHolidaysTVC.swift */,
+				2528BA6929ED10900001977E /* CompanyHolidaysTVC.xib */,
+			);
+			path = "Company Holidays";
+			sourceTree = "<group>";
+		};
+		2528BA6E29ED49270001977E /* My Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2528BA6F29ED49420001977E /* MyProfileVC.swift */,
+			);
+			path = "My Profile";
+			sourceTree = "<group>";
+		};
+		2535B4B829E8128B00FAFB85 /* Upcoming Request */ = {
+			isa = PBXGroup;
+			children = (
+				2535B4B929E812B300FAFB85 /* UpcomingRequestVC.swift */,
+				2535B4BB29E8168400FAFB85 /* UpcomingRequestTVC.swift */,
+				2535B4BC29E8168400FAFB85 /* UpcomingRequestTVC.xib */,
+				2535B4BF29E828D500FAFB85 /* PreviousRequestVC.swift */,
+				2528BA6C29ED162B0001977E /* PreviousRequestDetailVC.swift */,
+			);
+			path = "Upcoming Request";
+			sourceTree = "<group>";
+		};
+		253F313B2A31D38800C859E4 /* Manager View */ = {
+			isa = PBXGroup;
+			children = (
+				253F313C2A31D3A800C859E4 /* ManagerHomeVC.swift */,
+				253F313E2A31DCA300C859E4 /* ManagerHomeTVC.swift */,
+				253F313F2A31DCA300C859E4 /* ManagerHomeTVC.xib */,
+				253F31422A31E36000C859E4 /* ManagerLeaveDetailsVC.swift */,
+				253F31442A31E84500C859E4 /* TeamUpcomingReqVC.swift */,
+				253F31462A31F60D00C859E4 /* UpcomingReqTVC.swift */,
+				253F31472A31F60D00C859E4 /* UpcomingReqTVC.xib */,
+				25AAD75A2A32F130004F02CA /* OnLeaveVC.swift */,
+				25AAD75C2A32F48F004F02CA /* OnLeaveTVC.swift */,
+				25AAD75D2A32F48F004F02CA /* OnLeaveTVC.xib */,
+				259755B02AF3743B001978DD /* EmployeeWFHVC.swift */,
+			);
+			path = "Manager View";
+			sourceTree = "<group>";
+		};
+		25517D442A553DE200CC429D /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				25517D452A553EC600CC429D /* EmployeeNotificationsVC.swift */,
+				25517D472A553EF600CC429D /* EmployeeNotificationsTVC.swift */,
+				25517D482A553EF600CC429D /* EmployeeNotificationsTVC.xib */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		25529E7F2976AD51002CBBB7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25529E802976ADAC002CBBB7 /* HomeMainVC.swift */,
+				25529E822976B08B002CBBB7 /* HomeVC.swift */,
+				25A3CABD2A2F3437003096BA /* LeaveBalanceTVC.swift */,
+				25A3CABE2A2F3437003096BA /* LeaveBalanceTVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		259B329829767B9000AC25A3 = {
+			isa = PBXGroup;
+			children = (
+				259B32A329767B9100AC25A3 /* Nexus Pay */,
+				259B32BA29767B9300AC25A3 /* Nexus PayTests */,
+				259B32C429767B9300AC25A3 /* Nexus PayUITests */,
+				259B32A229767B9100AC25A3 /* Products */,
+				D2C422F26F51C5E5DB0C5194 /* Pods */,
+				B91686CB9D2109887DBD1B69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		259B32A229767B9100AC25A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259B32A129767B9100AC25A3 /* Nexus Pay.app */,
+				259B32B729767B9300AC25A3 /* Nexus PayTests.xctest */,
+				259B32C129767B9300AC25A3 /* Nexus PayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259B32A329767B9100AC25A3 /* Nexus Pay */ = {
+			isa = PBXGroup;
+			children = (
+				AFD047EE2B5A7D23004FE2A3 /* GifFiles */,
+				AFE231142BA849AC009773F0 /* success-1-6297.mp3 */,
+				252E93312A8646B4005C3327 /* Nexus Pay.entitlements */,
+				25F7D7B12A36EE500049277F /* Utils */,
+				25F7D7B02A36EE3C0049277F /* ViewModels */,
+				25F7D7AF2A36EE2B0049277F /* Models */,
+				25A3CAAC2A2EFEB5003096BA /* Fonts */,
+				250F732729792A3400B56098 /* API */,
+				250F7324297925F600B56098 /* Extensions */,
+				250F7319297924DE00B56098 /* Common Files */,
+				25192B6E2976A5B000D8EFB6 /* Views */,
+				259B32A429767B9100AC25A3 /* AppDelegate.swift */,
+				259B32A629767B9100AC25A3 /* SceneDelegate.swift */,
+				259B32AA29767B9100AC25A3 /* Main.storyboard */,
+				259B32AD29767B9300AC25A3 /* Assets.xcassets */,
+				259B32AF29767B9300AC25A3 /* LaunchScreen.storyboard */,
+				259B32B229767B9300AC25A3 /* Info.plist */,
+				252E93322A8652EB005C3327 /* GoogleService-Info.plist */,
+				AF97FE832BE8D82D00197C0E /* CustomTabBarController.swift */,
+				AF8694602C0EC66C008C28AC /* DummyViewController.swift */,
+				AF8694622C0EC6C4008C28AC /* DummyTVC.swift */,
+				AF8694632C0EC6C4008C28AC /* DummyTVC.xib */,
+			);
+			path = "Nexus Pay";
+			sourceTree = "<group>";
+		};
+		259B32BA29767B9300AC25A3 /* Nexus PayTests */ = {
+			isa = PBXGroup;
+			children = (
+				259B32BB29767B9300AC25A3 /* Nexus_PayTests.swift */,
+			);
+			path = "Nexus PayTests";
+			sourceTree = "<group>";
+		};
+		259B32C429767B9300AC25A3 /* Nexus PayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259B32C529767B9300AC25A3 /* Nexus_PayUITests.swift */,
+				259B32C729767B9300AC25A3 /* Nexus_PayUITestsLaunchTests.swift */,
+			);
+			path = "Nexus PayUITests";
+			sourceTree = "<group>";
+		};
+		25A3CAAC2A2EFEB5003096BA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25A3CAAE2A2EFF57003096BA /* Century Gothic.ttf */,
+				25A3CAB12A2EFF57003096BA /* CenturyGothic.ttf */,
+				25A3CAB22A2EFF57003096BA /* GOTHIC.TTF */,
+				25A3CAAD2A2EFF57003096BA /* GOTHICB.TTF */,
+				25A3CAB32A2EFF57003096BA /* GOTHICB0.TTF */,
+				25A3CAAF2A2EFF57003096BA /* GOTHICBI.TTF */,
+				25A3CAB02A2EFF57003096BA /* GOTHICI.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		25A4B1D52977BE6800521FA3 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				25A4B1D62977BE9C00521FA3 /* SideMenuVC.swift */,
+				25A4B1D82977BEC800521FA3 /* SideMenuTVC.swift */,
+				25A4B1D92977BEC800521FA3 /* SideMenuTVC.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		25A4F51C29EE5F990043AE2D /* Leave Balance */ = {
+			isa = PBXGroup;
+			children = (
+				25A4F51D29EE5FB40043AE2D /* LeaveBalanceVC.swift */,
+				25A4F51F29EE5FFA0043AE2D /* LeaveBalanceCVC.swift */,
+				25A4F52029EE5FFA0043AE2D /* LeaveBalanceCVC.xib */,
+			);
+			path = "Leave Balance";
+			sourceTree = "<group>";
+		};
+		25EB7EA129E7ECE600DDB10E /* Apply Request */ = {
+			isa = PBXGroup;
+			children = (
+				25EB7EA229E7ED1100DDB10E /* ApplyOvertimeVC.swift */,
+				2535B4B629E8082900FAFB85 /* ApplyRequestVC.swift */,
+				253F31392A31BA4000C859E4 /* WfhVC.swift */,
+				256132E32A405B5800DBBB6A /* RHApplyVC.swift */,
+			);
+			path = "Apply Request";
+			sourceTree = "<group>";
+		};
+		25F7D7AF2A36EE2B0049277F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25F7D7B62A36EF3C0049277F /* LoginModel.swift */,
+				25F7D7C22A36F96B0049277F /* BaseResponse.swift */,
+				25F7D7CA2A3745390049277F /* DashboardModel.swift */,
+				258BCA562A39D79B008CFD45 /* ApplyRequestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25F7D7B02A36EE3C0049277F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				25F7D7B82A36F03F0049277F /* UserViewModel.swift */,
+				25F7D7BA2A36F0F60049277F /* BaseViewModel.swift */,
+				25F7D7C82A3741760049277F /* DashboardViewModel.swift */,
+				258BCA542A39D77A008CFD45 /* ApplyRequestViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25F7D7B12A36EE500049277F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				25F7D7B22A36EEA40049277F /* UserDefaultsUtils.swift */,
+				25F7D7B42A36EEB40049277F /* AuthUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AFD047EE2B5A7D23004FE2A3 /* GifFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AF7843DC2B56AAAF00EAAF92 /* calendar88.gif */,
+				AFD047E62B5928CD004FE2A3 /* company-holidays.gif */,
+				AFD047EA2B5A50E6004FE2A3 /* leave-summary-details 1.gif */,
+				AFD047EC2B5A57FF004FE2A3 /* leaves-details12.gif */,
+				AFD047EF2B5A8404004FE2A3 /* notifications-screen.gif */,
+				AFE2FCBE2B5FDE1B002AAC64 /* LeaveDetails-new1.gif */,
+				AFAAF74F2B6775E000842532 /* PendingRequests.gif */,
+				AFAAF7512B677B1300842532 /* onleave.gif */,
+				AFAAF7532B67B84100842532 /* onleave_11.gif */,
+				AFAAF7552B67BA1E00842532 /* team-request11.gif */,
+				AFCD21822BC3EC07006BFC84 /* managerHomeScreen.gif */,
+			);
+			path = GifFiles;
+			sourceTree = "<group>";
+		};
+		B91686CB9D2109887DBD1B69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252616C52B48199300A485EB /* FirebaseAnalytics.xcframework */,
+				252616C32B48198800A485EB /* AdSupport.framework */,
+				BEA1C11A6B825D1E3DDB9C04 /* Pods_Nexus_Pay.framework */,
+				6D5EB214CF17F715637BBA9C /* Pods_Nexus_Pay_Nexus_PayUITests.framework */,
+				4D940EC70E4BF5993EE2E0BE /* Pods_Nexus_PayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C422F26F51C5E5DB0C5194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED882E0439C966BEE1B64B0F /* Pods-Nexus Pay.debug.xcconfig */,
+				E78CB9C6DD54F604E79EC3A3 /* Pods-Nexus Pay.release.xcconfig */,
+				A868CF7E339749C0179AAF1A /* Pods-Nexus Pay-Nexus PayUITests.debug.xcconfig */,
+				AB8B81D41F98B66D3896FBDE /* Pods-Nexus Pay-Nexus PayUITests.release.xcconfig */,
+				12DB6D1BF47940A5D3C9BBDA /* Pods-Nexus PayTests.debug.xcconfig */,
+				32EC4B6176623519E83AD5E3 /* Pods-Nexus PayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259B32A029767B9100AC25A3 /* Nexus Pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259B32CB29767B9300AC25A3 /* Build configuration list for PBXNativeTarget "Nexus Pay" */;
+			buildPhases = (
+				273326E80010ECCAAED46944 /* [CP] Check Pods Manifest.lock */,
+				259B329D29767B9100AC25A3 /* Sources */,
+				259B329E29767B9100AC25A3 /* Frameworks */,
+				259B329F29767B9100AC25A3 /* Resources */,
+				4C26CA2262784F685C08C2CD /* [CP] Embed Pods Frameworks */,
+				AF7843DE2B578AAD00EAAF92 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nexus Pay";
+			productName = "Nexus Pay";
+			productReference = 259B32A129767B9100AC25A3 /* Nexus Pay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259B32B629767B9300AC25A3 /* Nexus PayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259B32CE29767B9300AC25A3 /* Build configuration list for PBXNativeTarget "Nexus PayTests" */;
+			buildPhases = (
+				E1ADA3656BEC8C945294A2D4 /* [CP] Check Pods Manifest.lock */,
+				259B32B329767B9300AC25A3 /* Sources */,
+				259B32B429767B9300AC25A3 /* Frameworks */,
+				259B32B529767B9300AC25A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259B32B929767B9300AC25A3 /* PBXTargetDependency */,
+			);
+			name = "Nexus PayTests";
+			productName = "Nexus PayTests";
+			productReference = 259B32B729767B9300AC25A3 /* Nexus PayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259B32C029767B9300AC25A3 /* Nexus PayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259B32D129767B9300AC25A3 /* Build configuration list for PBXNativeTarget "Nexus PayUITests" */;
+			buildPhases = (
+				DCDA40EF0A3E7C3903ADCE88 /* [CP] Check Pods Manifest.lock */,
+				259B32BD29767B9300AC25A3 /* Sources */,
+				259B32BE29767B9300AC25A3 /* Frameworks */,
+				259B32BF29767B9300AC25A3 /* Resources */,
+				DB425B864A96535F0CEC5465 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259B32C329767B9300AC25A3 /* PBXTargetDependency */,
+			);
+			name = "Nexus PayUITests";
+			productName = "Nexus PayUITests";
+			productReference = 259B32C129767B9300AC25A3 /* Nexus PayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259B329929767B9000AC25A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					259B32A029767B9100AC25A3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					259B32B629767B9300AC25A3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 259B32A029767B9100AC25A3;
+					};
+					259B32C029767B9300AC25A3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 259B32A029767B9100AC25A3;
+					};
+				};
+			};
+			buildConfigurationList = 259B329C29767B9000AC25A3 /* Build configuration list for PBXProject "Nexus Pay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259B329829767B9000AC25A3;
+			productRefGroup = 259B32A229767B9100AC25A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259B32A029767B9100AC25A3 /* Nexus Pay */,
+				259B32B629767B9300AC25A3 /* Nexus PayTests */,
+				259B32C029767B9300AC25A3 /* Nexus PayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259B329F29767B9100AC25A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE2FCBF2B5FDE1B002AAC64 /* LeaveDetails-new1.gif in Resources */,
+				25A3CAB92A2EFF57003096BA /* GOTHIC.TTF in Resources */,
+				AFD047ED2B5A57FF004FE2A3 /* leaves-details12.gif in Resources */,
+				AFD047F02B5A8404004FE2A3 /* notifications-screen.gif in Resources */,
+				259B32B129767B9300AC25A3 /* LaunchScreen.storyboard in Resources */,
+				AFAAF7522B677B1300842532 /* onleave.gif in Resources */,
+				25A3CABA2A2EFF57003096BA /* GOTHICB0.TTF in Resources */,
+				25A3CAB82A2EFF57003096BA /* CenturyGothic.ttf in Resources */,
+				253F31412A31DCA300C859E4 /* ManagerHomeTVC.xib in Resources */,
+				AFD047E72B5928CD004FE2A3 /* company-holidays.gif in Resources */,
+				25A3CAB72A2EFF57003096BA /* GOTHICI.TTF in Resources */,
+				259B32AE29767B9300AC25A3 /* Assets.xcassets in Resources */,
+				2528BA6B29ED10900001977E /* CompanyHolidaysTVC.xib in Resources */,
+				25517D4A2A553EF600CC429D /* EmployeeNotificationsTVC.xib in Resources */,
+				AF7843DD2B56AAAF00EAAF92 /* calendar88.gif in Resources */,
+				25A3CAB62A2EFF57003096BA /* GOTHICBI.TTF in Resources */,
+				25A3CAC02A2F3437003096BA /* LeaveBalanceTVC.xib in Resources */,
+				2535B4BE29E8168400FAFB85 /* UpcomingRequestTVC.xib in Resources */,
+				259B32AC29767B9100AC25A3 /* Main.storyboard in Resources */,
+				253F31492A31F60D00C859E4 /* UpcomingReqTVC.xib in Resources */,
+				AF8694652C0EC6C4008C28AC /* DummyTVC.xib in Resources */,
+				25A4B1DB2977BEC800521FA3 /* SideMenuTVC.xib in Resources */,
+				25A4F52229EE5FFA0043AE2D /* LeaveBalanceCVC.xib in Resources */,
+				AFD047EB2B5A50E6004FE2A3 /* leave-summary-details 1.gif in Resources */,
+				25A3CAB52A2EFF57003096BA /* Century Gothic.ttf in Resources */,
+				AFAAF7502B6775E000842532 /* PendingRequests.gif in Resources */,
+				252E93332A8652EB005C3327 /* GoogleService-Info.plist in Resources */,
+				25AAD75F2A32F48F004F02CA /* OnLeaveTVC.xib in Resources */,
+				AFAAF7562B67BA1E00842532 /* team-request11.gif in Resources */,
+				AFE231152BA849AC009773F0 /* success-1-6297.mp3 in Resources */,
+				AFCD21832BC3EC07006BFC84 /* managerHomeScreen.gif in Resources */,
+				AFAAF7542B67B84100842532 /* onleave_11.gif in Resources */,
+				25A3CAB42A2EFF57003096BA /* GOTHICB.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B32B529767B9300AC25A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B32BF29767B9300AC25A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		273326E80010ECCAAED46944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nexus Pay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C26CA2262784F685C08C2CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nexus Pay/Pods-Nexus Pay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nexus Pay/Pods-Nexus Pay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nexus Pay/Pods-Nexus Pay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7843DE2B578AAD00EAAF92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		DB425B864A96535F0CEC5465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nexus Pay-Nexus PayUITests/Pods-Nexus Pay-Nexus PayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nexus Pay-Nexus PayUITests/Pods-Nexus Pay-Nexus PayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nexus Pay-Nexus PayUITests/Pods-Nexus Pay-Nexus PayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCDA40EF0A3E7C3903ADCE88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nexus Pay-Nexus PayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1ADA3656BEC8C945294A2D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nexus PayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259B329D29767B9100AC25A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25192B712976A5FD00D8EFB6 /* SignUpVC.swift in Sources */,
+				250F732B29792A8E00B56098 /* HTTPStatusCode.swift in Sources */,
+				AF97FE842BE8D82D00197C0E /* CustomTabBarController.swift in Sources */,
+				25AAD75E2A32F48F004F02CA /* OnLeaveTVC.swift in Sources */,
+				25F7D7C92A3741760049277F /* DashboardViewModel.swift in Sources */,
+				25529E832976B08C002CBBB7 /* HomeVC.swift in Sources */,
+				259B32A929767B9100AC25A3 /* ViewController.swift in Sources */,
+				250F731B2979251100B56098 /* Color.swift in Sources */,
+				259755B12AF3743B001978DD /* EmployeeWFHVC.swift in Sources */,
+				258BCA552A39D77A008CFD45 /* ApplyRequestViewModel.swift in Sources */,
+				250F732929792A6100B56098 /* APIConstants.swift in Sources */,
+				25517D462A553EC600CC429D /* EmployeeNotificationsVC.swift in Sources */,
+				250F7323297925BE00B56098 /* RPicker.swift in Sources */,
+				253F31402A31DCA300C859E4 /* ManagerHomeTVC.swift in Sources */,
+				256132E42A405B5800DBBB6A /* RHApplyVC.swift in Sources */,
+				250F731D2979253B00B56098 /* AppFont.swift in Sources */,
+				258BCA512A39D576008CFD45 /* ApplyRequestRouter.swift in Sources */,
+				25F7D7C52A3740A30049277F /* DashboardServices.swift in Sources */,
+				25EB7EA329E7ED1100DDB10E /* ApplyOvertimeVC.swift in Sources */,
+				250F732F29792AC100B56098 /* APIError.swift in Sources */,
+				259B32A529767B9100AC25A3 /* AppDelegate.swift in Sources */,
+				259B32A729767B9100AC25A3 /* SceneDelegate.swift in Sources */,
+				2528BA7029ED49420001977E /* MyProfileVC.swift in Sources */,
+				253F31482A31F60D00C859E4 /* UpcomingReqTVC.swift in Sources */,
+				25F7D7BD2A36F5800049277F /* UserServices.swift in Sources */,
+				2528BA6729ED10700001977E /* CompanyHolidaysVC.swift in Sources */,
+				25F7D7B32A36EEA40049277F /* UserDefaultsUtils.swift in Sources */,
+				25A3CABF2A2F3437003096BA /* LeaveBalanceTVC.swift in Sources */,
+				AF8694642C0EC6C4008C28AC /* DummyTVC.swift in Sources */,
+				25F7D7BF2A36F5BF0049277F /* GeneralBaseRouter.swift in Sources */,
+				25A4B1DA2977BEC800521FA3 /* SideMenuTVC.swift in Sources */,
+				25529E812976ADAC002CBBB7 /* HomeMainVC.swift in Sources */,
+				250F73212979259800B56098 /* Loader.swift in Sources */,
+				2528BA6D29ED162C0001977E /* PreviousRequestDetailVC.swift in Sources */,
+				253F31452A31E84500C859E4 /* TeamUpcomingReqVC.swift in Sources */,
+				253F313D2A31D3A800C859E4 /* ManagerHomeVC.swift in Sources */,
+				25F7D7B52A36EEB40049277F /* AuthUtils.swift in Sources */,
+				253F313A2A31BA4000C859E4 /* WfhVC.swift in Sources */,
+				2535B4BD29E8168400FAFB85 /* UpcomingRequestTVC.swift in Sources */,
+				25A4F51E29EE5FB40043AE2D /* LeaveBalanceVC.swift in Sources */,
+				250F733129792AD700B56098 /* NetworkAdapter.swift in Sources */,
+				250F732D29792AAB00B56098 /* APIResponseType.swift in Sources */,
+				258BCA572A39D79B008CFD45 /* ApplyRequestModel.swift in Sources */,
+				250F733429792BA900B56098 /* BaseRouterProtocol.swift in Sources */,
+				2535B4C029E828D500FAFB85 /* PreviousRequestVC.swift in Sources */,
+				25F7D7B92A36F03F0049277F /* UserViewModel.swift in Sources */,
+				250F73262979263C00B56098 /* UIViewController-Custom.swift in Sources */,
+				25AAD75B2A32F130004F02CA /* OnLeaveVC.swift in Sources */,
+				25A4B1D72977BE9C00521FA3 /* SideMenuVC.swift in Sources */,
+				25192B732976A66700D8EFB6 /* ForgotPasswordVC.swift in Sources */,
+				25F7D7BB2A36F0F60049277F /* BaseViewModel.swift in Sources */,
+				25A3CABC2A2F0CE0003096BA /* OtpVC.swift in Sources */,
+				258BCA532A39D6CA008CFD45 /* ApplyRequestServices.swift in Sources */,
+				25F7D7C32A36F96B0049277F /* BaseResponse.swift in Sources */,
+				AF8694612C0EC66C008C28AC /* DummyViewController.swift in Sources */,
+				25F7D7CB2A3745390049277F /* DashboardModel.swift in Sources */,
+				2528BA6A29ED10900001977E /* CompanyHolidaysTVC.swift in Sources */,
+				250F731F2979256600B56098 /* Constant.swift in Sources */,
+				25F7D7B72A36EF3C0049277F /* LoginModel.swift in Sources */,
+				25F7D7C72A3740B50049277F /* DashboardRouter.swift in Sources */,
+				2535B4BA29E812B300FAFB85 /* UpcomingRequestVC.swift in Sources */,
+				2535B4B729E8082900FAFB85 /* ApplyRequestVC.swift in Sources */,
+				25A4F52129EE5FFA0043AE2D /* LeaveBalanceCVC.swift in Sources */,
+				253F31432A31E36000C859E4 /* ManagerLeaveDetailsVC.swift in Sources */,
+				25517D492A553EF600CC429D /* EmployeeNotificationsTVC.swift in Sources */,
+				25F7D7C12A36F6120049277F /* UserRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B32B329767B9300AC25A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259B32BC29767B9300AC25A3 /* Nexus_PayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B32BD29767B9300AC25A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259B32C629767B9300AC25A3 /* Nexus_PayUITests.swift in Sources */,
+				259B32C829767B9300AC25A3 /* Nexus_PayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259B32B929767B9300AC25A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259B32A029767B9100AC25A3 /* Nexus Pay */;
+			targetProxy = 259B32B829767B9300AC25A3 /* PBXContainerItemProxy */;
+		};
+		259B32C329767B9300AC25A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259B32A029767B9100AC25A3 /* Nexus Pay */;
+			targetProxy = 259B32C229767B9300AC25A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259B32AA29767B9100AC25A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259B32AB29767B9100AC25A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259B32AF29767B9300AC25A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259B32B029767B9300AC25A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259B32C929767B9300AC25A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259B32CA29767B9300AC25A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259B32CC29767B9300AC25A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED882E0439C966BEE1B64B0F /* Pods-Nexus Pay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nexus Pay/Nexus Pay.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KQ24G7QX8R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nexus Pay/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WMS;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App will be used in multiple countries and we have to restrict the user to apply for a particular request as per that country's timezone";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App will be used in multiple countries and we have to restrict the user to apply for a particular request as per that country's timezone";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App will be used in multiple countries and we have to restrict the user to apply for a particular request as per that country's timezone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmotions.wms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "WMS Dev Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		259B32CD29767B9300AC25A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78CB9C6DD54F604E79EC3A3 /* Pods-Nexus Pay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nexus Pay/Nexus Pay.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KQ24G7QX8R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nexus Pay/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WMS;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App will be used in multiple countries and we have to restrict the user to apply for a particular request as per that country's timezone";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App will be used in multiple countries and we have to restrict the user to apply for a particular request as per that country's timezone";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App will be used in multiple countries and we have to restrict the user to apply for a particular request as per that country's timezone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmotions.wms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "WMS Dev Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		259B32CF29767B9300AC25A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DB6D1BF47940A5D3C9BBDA /* Pods-Nexus PayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmotions.Nexus-PayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nexus Pay.app/Nexus Pay";
+			};
+			name = Debug;
+		};
+		259B32D029767B9300AC25A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EC4B6176623519E83AD5E3 /* Pods-Nexus PayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmotions.Nexus-PayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nexus Pay.app/Nexus Pay";
+			};
+			name = Release;
+		};
+		259B32D229767B9300AC25A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A868CF7E339749C0179AAF1A /* Pods-Nexus Pay-Nexus PayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmotions.Nexus-PayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nexus Pay";
+			};
+			name = Debug;
+		};
+		259B32D329767B9300AC25A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8B81D41F98B66D3896FBDE /* Pods-Nexus Pay-Nexus PayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmotions.Nexus-PayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nexus Pay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259B329C29767B9000AC25A3 /* Build configuration list for PBXProject "Nexus Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259B32C929767B9300AC25A3 /* Debug */,
+				259B32CA29767B9300AC25A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259B32CB29767B9300AC25A3 /* Build configuration list for PBXNativeTarget "Nexus Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259B32CC29767B9300AC25A3 /* Debug */,
+				259B32CD29767B9300AC25A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259B32CE29767B9300AC25A3 /* Build configuration list for PBXNativeTarget "Nexus PayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259B32CF29767B9300AC25A3 /* Debug */,
+				259B32D029767B9300AC25A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259B32D129767B9300AC25A3 /* Build configuration list for PBXNativeTarget "Nexus PayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259B32D229767B9300AC25A3 /* Debug */,
+				259B32D329767B9300AC25A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259B329929767B9000AC25A3 /* Project object */;
+}

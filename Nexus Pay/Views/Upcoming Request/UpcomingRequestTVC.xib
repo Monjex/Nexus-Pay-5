@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CenturyGothic.ttf">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UpcomingRequestTVC" rowHeight="40" id="KGk-i7-Jjw" customClass="UpcomingRequestTVC" customModule="Nexus_Pay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="436" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nLw-64-63W" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="436" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pj-SK-O6i">
+                                <rect key="frame" x="12" y="11.5" width="32" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="wsm-N6-qhU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 April" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAU-fd-Wn9">
+                                <rect key="frame" x="92" y="11.5" width="124" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="7oW-fH-JKA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PI1-aA-rOx">
+                                <rect key="frame" x="396" y="6" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Ytt-4h-UND"/>
+                                    <constraint firstAttribute="width" constant="28" id="dXy-C4-T1d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="eye">
+                                    <color key="titleColor" systemColor="systemGreenColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDe-h1-VOk">
+                                <rect key="frame" x="228" y="5" width="66" height="30"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Approved">
+                                    <color key="titleColor" systemColor="systemGreenColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9pj-SK-O6i" firstAttribute="centerY" secondItem="nLw-64-63W" secondAttribute="centerY" id="3ci-DU-8yd"/>
+                            <constraint firstItem="WAU-fd-Wn9" firstAttribute="leading" secondItem="9pj-SK-O6i" secondAttribute="trailing" constant="48" id="IC0-BQ-pu3"/>
+                            <constraint firstItem="9pj-SK-O6i" firstAttribute="leading" secondItem="nLw-64-63W" secondAttribute="leading" constant="12" id="PkQ-S8-ZXb"/>
+                            <constraint firstItem="gDe-h1-VOk" firstAttribute="centerY" secondItem="nLw-64-63W" secondAttribute="centerY" id="Saw-w5-uY0"/>
+                            <constraint firstItem="PI1-aA-rOx" firstAttribute="centerY" secondItem="nLw-64-63W" secondAttribute="centerY" id="fMc-6W-7Bs"/>
+                            <constraint firstAttribute="trailing" secondItem="PI1-aA-rOx" secondAttribute="trailing" constant="12" id="hYv-1J-9g8"/>
+                            <constraint firstItem="gDe-h1-VOk" firstAttribute="leading" secondItem="WAU-fd-Wn9" secondAttribute="trailing" constant="12" id="iaD-jH-BpD"/>
+                            <constraint firstItem="WAU-fd-Wn9" firstAttribute="centerY" secondItem="nLw-64-63W" secondAttribute="centerY" id="oUS-qh-Vad"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="nLw-64-63W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Fn9-vN-5aS"/>
+                    <constraint firstItem="nLw-64-63W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Pdb-xD-nfR"/>
+                    <constraint firstAttribute="trailing" secondItem="nLw-64-63W" secondAttribute="trailing" id="RAd-1d-vt3"/>
+                    <constraint firstAttribute="bottom" secondItem="nLw-64-63W" secondAttribute="bottom" id="e1v-bS-iYW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLbl" destination="WAU-fd-Wn9" id="Buv-JA-10E"/>
+                <outlet property="eyeBtn" destination="PI1-aA-rOx" id="LI9-fM-EEo"/>
+                <outlet property="leaveTypeLbl" destination="9pj-SK-O6i" id="eIQ-tU-rAb"/>
+                <outlet property="statusBtn" destination="gDe-h1-VOk" id="GZD-za-i2I"/>
+            </connections>
+            <point key="canvasLocation" x="215.94202898550725" y="84.375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="eye" width="26" height="26"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

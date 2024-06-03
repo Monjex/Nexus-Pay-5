@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHIC.TTF">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OnLeaveTVC" rowHeight="32" id="KGk-i7-Jjw" customClass="OnLeaveTVC" customModule="Nexus_Pay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="32"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="32"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCY-5U-cGr">
+                        <rect key="frame" x="0.0" y="0.0" width="321" height="32"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SPh-1y-Tde">
+                                <rect key="frame" x="0.0" y="0.0" width="321" height="32"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TgU-VJ-E21">
+                                        <rect key="frame" x="0.0" y="0.0" width="160.66666666666666" height="32"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anna Paul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahF-f8-JHf">
+                                                <rect key="frame" x="42.666666666666664" y="6.6666666666666661" width="75.333333333333343" height="18.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ahF-f8-JHf" firstAttribute="centerY" secondItem="TgU-VJ-E21" secondAttribute="centerY" id="ce4-ml-27g"/>
+                                            <constraint firstItem="ahF-f8-JHf" firstAttribute="centerX" secondItem="TgU-VJ-E21" secondAttribute="centerX" id="jzK-9x-azm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m4Y-ku-hSj">
+                                        <rect key="frame" x="160.66666666666663" y="0.0" width="160.33333333333337" height="32"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQH-V1-iEL">
+                                                <rect key="frame" x="72.666666666666686" y="6.6666666666666661" width="14.666666666666671" height="18.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="WQH-V1-iEL" firstAttribute="centerX" secondItem="m4Y-ku-hSj" secondAttribute="centerX" id="9eL-d2-eO3"/>
+                                            <constraint firstItem="WQH-V1-iEL" firstAttribute="centerY" secondItem="m4Y-ku-hSj" secondAttribute="centerY" id="zdr-AH-NKb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SPh-1y-Tde" secondAttribute="trailing" id="2tQ-Ai-13M"/>
+                            <constraint firstItem="SPh-1y-Tde" firstAttribute="leading" secondItem="pCY-5U-cGr" secondAttribute="leading" id="AN7-gK-0tc"/>
+                            <constraint firstItem="SPh-1y-Tde" firstAttribute="top" secondItem="pCY-5U-cGr" secondAttribute="top" id="WJp-Ms-pfq"/>
+                            <constraint firstAttribute="bottom" secondItem="SPh-1y-Tde" secondAttribute="bottom" id="bR4-Ig-FiN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pCY-5U-cGr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="53h-6e-5Cs"/>
+                    <constraint firstItem="pCY-5U-cGr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZlW-3j-yFm"/>
+                    <constraint firstAttribute="trailing" secondItem="pCY-5U-cGr" secondAttribute="trailing" id="a76-Cg-atY"/>
+                    <constraint firstAttribute="bottom" secondItem="pCY-5U-cGr" secondAttribute="bottom" id="ifc-aX-tGN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainView" destination="pCY-5U-cGr" id="VLd-Yq-CVs"/>
+                <outlet property="nameLbl" destination="ahF-f8-JHf" id="cfp-wk-Qzd"/>
+                <outlet property="typeLbl" destination="WQH-V1-iEL" id="Rpe-hz-acE"/>
+            </connections>
+            <point key="canvasLocation" x="89.312977099236633" y="-37.323943661971832"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
