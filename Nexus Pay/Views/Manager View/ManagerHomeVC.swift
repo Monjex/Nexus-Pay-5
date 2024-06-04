@@ -194,7 +194,7 @@ class ManagerHomeVC: UIViewController, DataEnteredDelegate {
         
         Analytics.logEvent("onLeave_action_ios", parameters: [AnalyticsParameterScreenName: ManagerHomeVC.self])
         
-        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "DummyViewController") as! DummyViewController
+        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "OnLeaveVC") as! OnLeaveVC
         self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     
@@ -380,7 +380,7 @@ class ManagerHomeVC: UIViewController, DataEnteredDelegate {
         
         Analytics.logEvent("teamReq_action_ios", parameters: [AnalyticsParameterScreenName: ManagerHomeVC.self])
         
-        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "DummyViewController") as! DummyViewController
+        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "TeamUpcomingReqVC") as! TeamUpcomingReqVC
         self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     
